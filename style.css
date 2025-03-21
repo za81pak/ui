@@ -22,7 +22,7 @@ body{
     border-radius: 0.5rem;
     box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
-.accordion .accordion-content{
+.accordion .accordion__content{
     margin:10px 0;
     border-radius: 5px;
     background-color: #FFF6ED;
@@ -30,10 +30,10 @@ body{
     overflow: hidden;
 }
 
-.accordion-content.is-open{
+.accordion__content.is-open{
     padding-bottom: 10px;
 }
-.accordion-content header{
+.accordion__content header{
     display:flex;
     min-height: 50px;
     padding: 0 30px;
@@ -42,15 +42,15 @@ body{
     justify-content: space-between;
     transition:all 0.2s linear;
 }
-.accordion-content.is-open header{
+.accordion__content.is-open header{
     min-height: 35px;
 }
-.accordion-content-title{
+.accordion__content-title{
     font-size: 1rem;
     font-weight: 600;
     color:#000000;
 }
-.accordion-content-description{
+.accordion__content-description{
     height:0;
     font-size: 13px;
     color:#000000;
